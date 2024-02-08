@@ -1,0 +1,7 @@
+README.md
+setup.py
+corretor_de_endereco.egg-info/PKG-INFO
+corretor_de_endereco.egg-info/SOURCES.txt
+corretor_de_endereco.egg-info/dependency_links.txt
+corretor_de_endereco.egg-info/requires.txt
+corretor_de_endereco.egg-info/top_level.txt

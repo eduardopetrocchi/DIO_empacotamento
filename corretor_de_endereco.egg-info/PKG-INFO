@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: corretor-de-endereco
+Version: 1.1
+Summary: Um módulo Python simples para corrigir endereços substituindo '\' por '/'.
+Home-page: https://github.com/eduardopetrocchi/DIO_empacotamento
+Author: Eduardo Petroccchi
+Author-email: eduardo.petrocchi@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asttokens==2.2.1
+Requires-Dist: backcall==0.2.0
+Requires-Dist: colorama==0.4.6
+Requires-Dist: comm==0.1.4
+Requires-Dist: debugpy==1.6.7.post1
+Requires-Dist: decorator==5.1.1
+Requires-Dist: executing==1.2.0
+Requires-Dist: ipykernel==6.25.1
+Requires-Dist: ipython==8.14.0
+Requires-Dist: jedi==0.19.0
+Requires-Dist: jupyter_client==8.3.0
+Requires-Dist: jupyter_core==5.3.1
+Requires-Dist: matplotlib-inline==0.1.6
+Requires-Dist: nest-asyncio==1.5.7
+Requires-Dist: packaging==23.1
+Requires-Dist: parso==0.8.3
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: platformdirs==3.10.0
+Requires-Dist: prompt-toolkit==3.0.39
+Requires-Dist: psutil==5.9.5
+Requires-Dist: pure-eval==0.2.2
+Requires-Dist: Pygments==2.16.1
+Requires-Dist: pywin32==306
+Requires-Dist: pyzmq==25.1.1
+Requires-Dist: stack-data==0.6.2
+Requires-Dist: tornado==6.3.3
+Requires-Dist: traitlets==5.9.0
+Requires-Dist: wcwidth==0.2.6
+
+# Address Corrector
+
+This is a simple Python module for address correction. It provides the `substituicao()` function, which replaces all occurrences of '\\' with '/' in an address.
+
+## Installation
+
+You can install the module using the following pip command:
+
+```bash
+pip install corretor_de_enderecos
+```
+
+## Usage
+
+The `substituicao` function can be used as follows:
+
+```python
+from corretor_de_enderecos import substituicao
+
+endereco = "C:\\Users\\MeuUsuario\\Desktop"
+endereco_corrigido = substituicao(endereco)
+print(f"Original address: {endereco}")
+print(f"Corrected address: {endereco_corrigido}")
+```
+
+Output:
+```
+Original address: C:\\Users\\MeuUsuario\\Desktop
+Corrected address: C:/Users/MeuUsuario/Desktop
+```
+
+## Contributions
+
+Contributions are welcome! If you want to contribute to the development of this module, follow the steps below:
+
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/new-feature`.
+3. Make changes and commit.
+4. Push to the branch: `git push origin feature/new-feature`.
+5. Open a Pull Request.
+
+## License
+
+Distributed under the [MIT License](LICENSE).
+
+## Authors
+
+- [Eduardo Petroccchi](https://www.github.com/eduardopetrocchi)
+
+I hope this README is helpful and provides clear information about the usage and contribution to the Address Corrector module.
